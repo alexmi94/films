@@ -43,7 +43,7 @@ main section:last-child{
 }
 
 main section a{
-    background-color: #3B99CC;
+    background-color: #3498db;
     color: #fafafa;
     padding: 1.5rem 9rem;
 }
@@ -79,6 +79,6 @@ footer{
 
 .form form input:last-child{
     margin: 5rem 0;
-    background-color: #F0F0F0;
+    background-color: #2ecc71;
     cursor: pointer;
 }
