@@ -5,6 +5,7 @@
     --color-bg : #2c3e50;
     --color-shadow : #000000;
     --color-fg: #fafafa;
+    --color-fg-dark:  #000000;
     --color-bg-text:#ecf0f1;
     --color-bg-a: #3498db;
     --color-bg-input-submit: #27ae60;
@@ -76,12 +77,12 @@ main section:last-child{
     margin: 8rem;
 }
 
-main section a{
+main aside a{
     background-color: var(--color-bg-a);
-    color: var(--color-fg);
-    padding: 1.5rem 9rem;
+    color: var(--color-fg-dark);
+    padding: 1.5rem 7rem;
     border-radius: 1rem;
-    font-weight: 500;
+    font-weight: 600;
     font-size: 1.8rem;
 }
 
@@ -98,29 +99,44 @@ footer p{
 
 .form h2{
     text-align: center;
+    font-weight: 600;
+    color: var(--color-bg-text);
 }
 
 .form form{
-    max-width: 50rem;
+    max-width: 90rem;
     margin: 0 auto;
 }
 
 .form form input, .form form label{
     display: block;
+    
 }
 
 .form form label{
     margin-top: 2rem;
+    color: var(--color-bg-text);
+    font-weight: 500;
 }
 
 .form form input{
     padding: 1rem;
     border-radius: .5rem;
     width: 100%;
+    font-size: 1.6rem;
 }
 
 .form form input:last-child{
-    margin: 5rem 0;
+    margin: 5rem auto;
     background-color: var(--color-bg-input-submit);
     cursor: pointer;
+    font-weight: 600;
+    max-width: 40rem;
+    text-transform: uppercase;
 }
+
+input:focus { 
+    outline: none;
+}
+
+

@@ -45,10 +45,14 @@ première phase.
 
 ## Charte graphique
 
-### Couleur
+### Nuancier
 
-![couleur](https://www.zupimages.net/up/22/02/8pzi.png)
+![couleur](https://www.zupimages.net/up/22/02/om38.png)
 
-### Police d'ecriture
+### Button
+
+<img src="https://www.zupimages.net/up/22/02/9nzj.png" alt="button" height="500" />
+
+### Police d'écriture
 
 ![police](https://www.zupimages.net/up/22/02/v2hq.png)
