@@ -59,12 +59,13 @@ main section p{
 }
 
 .list_image{
-    max-width: 55rem;
+    max-width: calc(5rem + 5*20rem);
     margin: 4rem auto;
 }
 
 .list_image ul{
     font-size: 0;
+    text-align: center;
 }
 
 .list_image ul li{
@@ -77,10 +78,18 @@ main section:last-child{
     margin: 8rem;
 }
 
+main aside{
+    display: block;
+    margin: 3rem auto;
+    max-width: 50rem;
+}
+
 main aside a{
+    display: block;
+    text-align: center;
     background-color: var(--color-bg-a);
     color: var(--color-fg-dark);
-    padding: 1.5rem 7rem;
+    padding: 1rem 0;
     border-radius: 1rem;
     font-weight: 600;
     font-size: 1.8rem;
@@ -140,3 +149,7 @@ input:focus {
 }
 
 
+@media screen and (max-width: 700px){
+
+
+}
