@@ -87,6 +87,7 @@ main section:last-child{
 main aside{
     display: block;
     margin: 3rem auto;
+    max-width: 35rem;
 }
 
 main aside a{
