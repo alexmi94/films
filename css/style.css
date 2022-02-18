@@ -90,9 +90,19 @@ main aside{
     max-width: 35rem;
 }
 
-main aside a{
-    display: block;
+main aside #inscription, main aside #connexion{
     text-align: center;
+    display: block;
+    color: var(--color-fg);
+}
+
+main aside #connexion{
+    text-decoration: underline;
+    margin-top: 1rem;
+}
+
+main aside #inscription{
+    display: block;
     background-color: var(--color-bg-a);
     color: var(--color-fg-dark);
     padding: 1rem 0;
