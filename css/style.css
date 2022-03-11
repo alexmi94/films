@@ -165,6 +165,29 @@ input:focus {
     outline: none;
 }
 
+/*------- ListeFilm --------*/
+
+.list_image_horizontal{
+    text-align: center;
+    font-size: 0;
+}
+
+.list_image_horizontal li{
+    width: 20rem;
+    height: 29.5rem;
+    display: inline-block;
+    margin: 0 1rem;
+}
+
+.list_image_horizontal li img{
+    border-radius: .7rem;
+}
+
+/*------- Film --------*/
+
+.one_film img{
+    width: 30rem;
+}
 
 @media screen and (max-width: 700px){
 
