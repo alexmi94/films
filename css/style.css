@@ -207,6 +207,15 @@ input:focus {
 
 /*------- Film --------*/
 
+.one_film{
+
+    display: block;
+}
+
+.one_film ul{
+    background-color: #bdc3c7;
+}
+
 .one_film img{
     width: 30rem;
 }
@@ -219,6 +228,7 @@ main .one_film p{
 
 main .one_film ul li{
     display: inline-block;
+    vertical-align: top;
 }
 
 main .one_film ul li:first-child{
