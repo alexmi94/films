@@ -1,6 +1,11 @@
 # Développement d’une page publicitaire pour une chaîne Streaming
 
-[Website](https://alexmi94.github.io/films/)
+- [Index](https://alexmi94.github.io/films/index.html)
+- [formulaire](https://alexmi94.github.io/films/formulaire.html)
+- [Connexion](https://alexmi94.github.io/films/connexion.html)
+- [Liste des Films](https://alexmi94.github.io/films/listefilm.html)
+- [Un films](https://alexmi94.github.io/films/film.html)
+- [Favoris](https://alexmi94.github.io/films/bookmark.html)
 
 ## Sujet
 
