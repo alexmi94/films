@@ -15,26 +15,28 @@
     </header>
 
     <main>
-    <section class="one_film">
+    <section class="one_film" itemtype ="https://schema.org/Movie">
         <ul>
             <li> 
-                <img src="./asset/jurassic_park.jpg" alt="jurassic_park">
+                <img src="./asset/jurassic_park.jpg" alt="jurassic_park" itemprop="image">
                 <button class="bookmark">Ajouter au favoris</button>
             </li>
             <li>
-                <h2>Jurassic Park</h2>
+                <h2 itemprop="headline">Jurassic Park</h2>
                 <h3>Description</h3>
-                <p>En 1980, le gouvernement cubain expulse plusieurs centaines de prisonniers dangereux vers la Floride. Parmi eux, Tony Montana : ambitieux et sans scrupules, il élabore un plan pour prendre la place d'un caïd de la drogue.</p>
-                <div class="table">
-                    <div>Genre</div>
-                    <div>Aventure, Science-Fiction</div>
-                    <div>Réalisteur</div>
-                    <div>Steven Spielberg</div>
-                    <div>Durée</div>
-                    <div>1h20</div>
-                    <div>Note</div>
-                    <div>80%</div>
-                    <div class=".list_streaming">
+                <p itemprop="description">En 1980, le gouvernement cubain expulse plusieurs centaines de prisonniers dangereux vers la Floride. Parmi eux, Tony Montana : ambitieux et sans scrupules, il élabore un plan pour prendre la place d'un caïd de la drogue.</p>
+                <ul class="table">
+                    <li>Genre</li>
+                    <li itemprop="genre">Aventure, Science-Fiction</li>
+                    <li>Réalisteur</li>
+                    <li itemprop="director">Steven Spielberg</li>
+                    <li>Durée</li>
+                    <li>1h20</li>
+                    <li>Note</li>
+                    <li>80%</li>
+                    <li>Date de sortie</li>
+                    <li itemprop="dateCreated">1993</li>
+                    <li class=".list_streaming">
                         <ul>
                             <li>
                                     <img src="./asset/stream/disney_plus.jpg" alt="disney plus">
@@ -46,8 +48,8 @@
                                     <img src="./asset/stream/prime_video.jpg" alt="amazon prime">
                             </li>
                         </ul>
-                    </div>
-                </div>
+                    </li>
+                </ul>
             </li>
 
         

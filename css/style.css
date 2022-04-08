@@ -227,6 +227,7 @@ input:focus {
     display: block;
     margin-top: 5rem;
     padding: 2rem 0;
+    text-align: center;
 }
 
 .one_film > ul > li > img{
@@ -260,7 +261,7 @@ main .one_film p{
 }
 
 
-main > .one_film > ul > li > div > div > ul > li  > img{
+.table > li > ul > li  > img{
     width: 5rem;
     display: block;
     border-radius: 1rem;
@@ -278,12 +279,12 @@ main .one_film > ul > li:first-child{
 
 .table {
     display: grid;
-    grid-template-columns: 10rem auto ;
+    grid-template-columns: 11rem auto ;
     max-width: 40rem;
     text-align: left;
 }
 
-.table > div{
+.table > li{
     margin-top: 1rem; 
 }
 
